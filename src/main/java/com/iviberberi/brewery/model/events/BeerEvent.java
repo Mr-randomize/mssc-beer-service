@@ -1,6 +1,6 @@
-package com.iviberberi.comon.events;
+package com.iviberberi.brewery.model.events;
 
-import com.iviberberi.msscbeerservice.web.model.BeerDto;
+import com.iviberberi.brewery.model.BeerDto;
 import lombok.*;
 
 import java.io.Serializable;

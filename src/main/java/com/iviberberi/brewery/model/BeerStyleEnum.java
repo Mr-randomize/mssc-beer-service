@@ -1,4 +1,4 @@
-package com.iviberberi.msscbeerservice.web.model;
+package com.iviberberi.brewery.model;
 
 public enum BeerStyleEnum {
     LAGER, PILSNER, STOUT, GOSE, PORTER, ALE, WHEAT, IPA, PALE_ALE, SAISON

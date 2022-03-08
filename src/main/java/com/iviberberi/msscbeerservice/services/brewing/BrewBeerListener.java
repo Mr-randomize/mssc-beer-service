@@ -2,10 +2,10 @@ package com.iviberberi.msscbeerservice.services.brewing;
 
 import com.iviberberi.msscbeerservice.config.JmsConfig;
 import com.iviberberi.msscbeerservice.domain.Beer;
-import com.iviberberi.comon.events.BrewBeerEvent;
-import com.iviberberi.comon.events.NewInventoryEvent;
+import com.iviberberi.brewery.model.events.BrewBeerEvent;
+import com.iviberberi.brewery.model.events.NewInventoryEvent;
 import com.iviberberi.msscbeerservice.repositories.BeerRepository;
-import com.iviberberi.msscbeerservice.web.model.BeerDto;
+import com.iviberberi.brewery.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;

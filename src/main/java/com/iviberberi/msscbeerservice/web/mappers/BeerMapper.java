@@ -1,7 +1,7 @@
 package com.iviberberi.msscbeerservice.web.mappers;
 
 import com.iviberberi.msscbeerservice.domain.Beer;
-import com.iviberberi.msscbeerservice.web.model.BeerDto;
+import com.iviberberi.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

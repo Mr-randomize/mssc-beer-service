@@ -1,11 +1,10 @@
 package com.iviberberi.msscbeerservice.repositories;
 
 import com.iviberberi.msscbeerservice.domain.Beer;
-import com.iviberberi.msscbeerservice.web.model.BeerStyleEnum;
+import com.iviberberi.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.Optional;
 import java.util.UUID;
